@@ -11,6 +11,7 @@ def secLargest(arr):
     print("Second Largest:", arr[-2])
     
     
-secLargest(arr)
+secLargest(arr);
+
     
     
