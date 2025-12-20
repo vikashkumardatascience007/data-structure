@@ -7,9 +7,9 @@ def removeDuplicates(arr):
             tempArr.append(arr[i])
         
     print(tempArr)
-    
 
 
 if __name__ == "__main__":
     arr = [1,9, 2, 3, 9, 4, 2, 5, 5]
     removeDuplicates(arr)
+    
