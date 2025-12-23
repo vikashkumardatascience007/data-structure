@@ -14,10 +14,10 @@ def selection_sort(arr):
         arr[i],arr[minIdx]=arr[minIdx],arr[i]
  
         
-def print_array(arr):
-    for val in arr:
-        print(val, end=" ")
-    print()
+    def print_array(arr):
+        for val in arr:
+            print(val, end=" ")
+        print()
         
         
 if  __name__ == "__main__":
