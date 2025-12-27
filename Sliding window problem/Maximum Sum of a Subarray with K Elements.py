@@ -22,4 +22,3 @@ if __name__ == "__main__":
     k1 = 4 
     x=maxSum(arr,k)
     print(x)
-    6-2+3
