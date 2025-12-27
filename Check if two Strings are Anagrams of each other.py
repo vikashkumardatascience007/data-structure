@@ -3,23 +3,27 @@ def checkAnagram(s1,s2):
     if len(s1) !=len(s2):
         return isAna
     
-    has=set()
+    has={}
     for i in s1:
-        has.add(i)
+        if i in has.keys():
+            has[i]=has[i]+1
+        else:
+            has[i]=1
             
     for i in s2:
-        if(i in has):
-            isAna=True
-        else:
+        if(i not in has or has[i] ==0):
             isAna=False
-            
+        else:
+            isAna=True
+
+        has[i]-=1  
     return isAna
     
 
 if __name__=='__main__':
     
-    s1 = "allergy"
-    s2 = "gyallrey"
+    s1 = "eret"
+    s2 = "tree"
     has= checkAnagram(s1,s2)
     print(has)
     
