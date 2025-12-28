@@ -1,9 +1,11 @@
 
 def getAllSubArray(str,ana):
     
+    
 
 
 if __name__=='__main__':
     
-    
-    getAllSubArray()
+    st "BACABC"
+    pat= "CBA"
+    getAllSubArray(st,pat)
