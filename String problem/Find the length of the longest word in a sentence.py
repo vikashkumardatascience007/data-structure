@@ -13,6 +13,6 @@ def longWord(st):
 
 
 if __name__ == "__main__":
-    st='My name is Vikash and my engineering degree is COmputer Science' 
+    st='My engineering degree is Computer Science' 
 
     longWord(st)
