@@ -20,5 +20,5 @@ if __name__ == "__main__":
     
     arr1=[1, 4, 2, 10, 23, 3, 1, 0, 20]
     k1 = 4 
-    x=maxSum(arr,k)
+    x=maxSum(arr,k) # input
     print(x)
